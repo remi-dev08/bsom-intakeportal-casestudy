@@ -5,7 +5,7 @@ import ProblemSolution from "@/components/case-study/ProblemSolution";
 import Features from "@/components/case-study/Features";
 import Architecture from "@/components/case-study/Architecture";
 import Evolution from "@/components/case-study/Evolution";
-
+import OperationalWorkflow from "@/components/case-study/OperationalWorkflow";
 import Impact from "@/components/case-study/Impact";
 import Reflection from "@/components/case-study/Reflection";
 
@@ -20,7 +20,7 @@ const Index = () => {
         <Features />
         <Architecture />
         <Evolution />
-        
+        <OperationalWorkflow />
         <Impact />
         <Reflection />
       </main>
