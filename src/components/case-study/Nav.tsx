@@ -17,7 +17,7 @@ const Nav = () => (
         <a href="#architecture" className="hover:text-foreground transition-colors">Architecture</a>
         <a href="#impact" className="hover:text-foreground transition-colors">Impact</a>
       </nav>
-      <a href="#contact" className="text-sm font-medium px-4 py-2 rounded-lg bg-foreground text-background hover:bg-foreground/90 transition-colors">
+      <a href="https://www.zanteriawells.com" target="_blank" rel="noopener noreferrer" className="text-sm font-medium px-4 py-2 rounded-lg bg-foreground text-background hover:bg-foreground/90 transition-colors">
         Get in touch
       </a>
     </div>
