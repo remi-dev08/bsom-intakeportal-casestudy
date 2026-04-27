@@ -23,8 +23,8 @@ const Reflection = () => (
             Discuss a project
             <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
-          <a href="#" className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-border bg-card/60 backdrop-blur font-medium hover:border-primary/40 hover:text-primary transition-colors">
-            View more work
+          <a href="https://new-demo-portal.vercel.app/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-border bg-card/60 backdrop-blur font-medium hover:border-primary/40 hover:text-primary transition-colors">
+            View Demo
           </a>
         </div>
       </div>
