@@ -9,7 +9,7 @@ const Hero = () => (
       <div className="max-w-3xl">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-border bg-secondary/40 text-xs font-mono text-muted-foreground mb-6">
           <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse-glow" />
-          Case Study · Internal Operations Platform · 2024
+          Case Study · Internal Operations Platform · 2026
         </div>
         <h1 className="text-5xl md:text-7xl font-semibold tracking-tight leading-[1.05] text-gradient">
           BSOM Intake Portal
