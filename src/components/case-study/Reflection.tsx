@@ -19,7 +19,7 @@ const Reflection = () => {
           </h2>
           <p className="mt-8 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
             BSOM Intake Portal demonstrates how thoughtful product architecture can transform a manual,
-            fragmented operation into a scalable, auditable platform — one that serves operators, clinicians,
+            fragmented operation into a scalable, auditable platform. One that serves operators, clinicians,
             and the families they care for.
           </p>
 
@@ -44,7 +44,7 @@ const Reflection = () => {
           <div className="h-5 w-5 rounded-md bg-gradient-to-br from-primary to-accent" />
           <span>BSOM Intake Portal · Case Study</span>
         </div>
-        <div className="font-mono">© 2024 — Built for Behavioral Solutions of Mississippi</div>
+        <div className="font-mono">© 2026 — Built for Behavioral Solutions of Mississippi</div>
       </footer>
 
       <DemoPreviewModal open={demoOpen} onClose={() => setDemoOpen(false)} />

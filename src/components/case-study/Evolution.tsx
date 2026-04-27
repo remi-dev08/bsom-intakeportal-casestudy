@@ -7,7 +7,7 @@ const Evolution = () => (
       <SectionHeader
         eyebrow="05 · Evolution"
         title="From spreadsheet to system."
-        description="Internal tools rarely start as products. This one earned its way there — driven by real operational pain and iterative validation."
+        description="Internal tools rarely start as products. This one earned its way there, driven by real operational pain and iterative validation."
       />
 
       <div className="mt-16 grid lg:grid-cols-[1fr_auto_1fr] items-stretch gap-6">

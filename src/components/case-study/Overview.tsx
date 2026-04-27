@@ -15,7 +15,7 @@ const Overview = () => (
       <SectionHeader
         eyebrow="01 · Overview"
         title="A system of record for intake operations."
-        description="What started as a simple referral tracker evolved into a full operational platform supporting intake, assessments, referral lifecycle management, analytics, and team coordination — built as a real business-critical internal tool for a growing ABA healthcare organization."
+        description="What started as a simple referral tracker evolved into a full operational platform supporting intake, assessments, referral lifecycle management, analytics, and team coordination. Built as a real business-critical internal tool for a growing ABA healthcare organization."
       />
 
       <div className="mt-16 grid lg:grid-cols-2 gap-6">

@@ -15,7 +15,7 @@ const Hero = () => (
           BSOM Intake Portal
         </h1>
         <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-          Transforming behavioral healthcare intake operations through custom internal software —
+          Transforming behavioral healthcare intake operations through custom internal software,
           replacing fragmented spreadsheets with a centralized system of record.
         </p>
 
