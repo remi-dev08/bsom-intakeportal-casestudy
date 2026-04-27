@@ -20,7 +20,7 @@ const Architecture = () => (
       <div className="mt-16 max-w-4xl mx-auto space-y-3">
         {layers.map((layer, i) => (
           <div key={layer.label} className="card-elevated rounded-2xl border border-border/60 p-6 relative overflow-hidden group hover:border-primary/40 transition-colors">
-            <div className={`absolute left-0 top-0 bottom-0 w-1 bg-${layer.color}`} />
+            <div className={`absolute left-0 top-0 bottom-0 w-1 ${layer.accent}`} />
             <div className="flex items-start gap-6">
               <div className="font-mono text-xs text-muted-foreground shrink-0 w-10">L{i + 1}</div>
               <div className="flex-1 grid sm:grid-cols-3 gap-4 items-center">
