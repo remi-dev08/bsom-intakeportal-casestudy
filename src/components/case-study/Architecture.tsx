@@ -1,26 +1,10 @@
 import SectionHeader from "./SectionHeader";
 
 const layers = [
-  {
-    label: "Client",
-    color: "primary",
-    items: ["React + Vite SPA", "Responsive UI architecture", "Role-aware routing"],
-  },
-  {
-    label: "Auth & Access",
-    color: "accent",
-    items: ["Supabase Auth", "Role-based access control", "Activity logging"],
-  },
-  {
-    label: "Application Layer",
-    color: "primary",
-    items: ["AWS App Runner", "API services", "Workflow orchestration"],
-  },
-  {
-    label: "Data Layer",
-    color: "accent",
-    items: ["PostgreSQL on AWS RDS", "Audit-friendly schema", "Document storage"],
-  },
+  { label: "Client", accent: "bg-primary", items: ["React + Vite SPA", "Responsive UI architecture", "Role-aware routing"] },
+  { label: "Auth & Access", accent: "bg-accent", items: ["Supabase Auth", "Role-based access control", "Activity logging"] },
+  { label: "Application Layer", accent: "bg-primary", items: ["AWS App Runner", "API services", "Workflow orchestration"] },
+  { label: "Data Layer", accent: "bg-accent", items: ["PostgreSQL on AWS RDS", "Audit-friendly schema", "Document storage"] },
 ];
 
 const Architecture = () => (
