@@ -71,7 +71,7 @@ const RoleCarousel = () => {
         <SectionHeader
           eyebrow="06 · Role-Based Surfaces"
           title="One platform. Three perspectives."
-          description="Role-aware permissions tailor the interface to what each team member needs to see and act on — from frontline coordinators to clinical leads."
+          description="Role-aware permissions tailor the interface to what each team member needs to see and act on, from frontline coordinators to clinical leads."
         />
 
         {/* Role tabs */}
