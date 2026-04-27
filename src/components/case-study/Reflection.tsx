@@ -19,7 +19,7 @@ const Reflection = () => (
         </p>
 
         <div className="mt-12 flex flex-col sm:flex-row gap-3 justify-center">
-          <a href="mailto:hello@example.com" className="group inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-foreground text-background font-medium hover:bg-foreground/90 transition-colors">
+          <a href="https://www.zanteriawells.com" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-foreground text-background font-medium hover:bg-foreground/90 transition-colors">
             Discuss a project
             <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
