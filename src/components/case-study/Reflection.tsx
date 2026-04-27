@@ -33,7 +33,7 @@ const Reflection = () => {
               onClick={() => setDemoOpen(true)}
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-border bg-card/60 backdrop-blur font-medium hover:border-primary/40 hover:text-primary transition-colors"
             >
-              View Demo
+              View LiveDemo
             </button>
           </div>
         </div>
