@@ -21,7 +21,7 @@ const Features = () => (
       <SectionHeader
         eyebrow="03 · Core Features"
         title="Eight modules. One operational backbone."
-        description="Each surface was designed to remove a specific operational friction point — together they form a coherent internal system."
+        description="Each surface was designed to remove a specific operational friction point and together they form a coherent internal system."
       />
 
       <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-border/60 rounded-2xl overflow-hidden border border-border/60">

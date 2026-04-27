@@ -44,7 +44,7 @@ const Reflection = () => {
           <div className="h-5 w-5 rounded-md bg-gradient-to-br from-primary to-accent" />
           <span>BSOM Intake Portal · Case Study</span>
         </div>
-        <div className="font-mono">© 2024 — Built for Behavioral Solutions of Mississippi</div>
+        <div className="font-mono">© 2026 — Built for Behavioral Solutions of Mississippi</div>
       </footer>
 
       <DemoPreviewModal open={demoOpen} onClose={() => setDemoOpen(false)} />

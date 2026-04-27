@@ -12,7 +12,7 @@ const slides = [
     icon: Headphones,
     image: coordinatorImg,
     summary:
-      "The day-to-day operator's view — built for speed, clarity, and zero context loss between referrals.",
+      "The day-to-day operator's view. Built for speed, clarity, and zero context loss between referrals.",
     capabilities: [
       "Active referral pipeline by stage",
       "Insurance verification queue",
