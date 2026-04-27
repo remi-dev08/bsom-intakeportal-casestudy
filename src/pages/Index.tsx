@@ -1,16 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Nav from "@/components/case-study/Nav";
+import Hero from "@/components/case-study/Hero";
+import Overview from "@/components/case-study/Overview";
+import ProblemSolution from "@/components/case-study/ProblemSolution";
+import Features from "@/components/case-study/Features";
+import Architecture from "@/components/case-study/Architecture";
+import Evolution from "@/components/case-study/Evolution";
+import Impact from "@/components/case-study/Impact";
+import Reflection from "@/components/case-study/Reflection";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="min-h-screen bg-background text-foreground">
+      <Nav />
+      <main>
+        <Hero />
+        <Overview />
+        <ProblemSolution />
+        <Features />
+        <Architecture />
+        <Evolution />
+        <Impact />
+        <Reflection />
+      </main>
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
