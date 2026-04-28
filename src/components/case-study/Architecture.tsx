@@ -1,10 +1,10 @@
 import SectionHeader from "./SectionHeader";
 
 const layers = [
-  { label: "Client", accent: "bg-primary", items: ["React + Vite SPA", "Role-aware routing"] },
-  { label: "Auth & Access", accent: "bg-accent", items: ["Supabase Auth", "Role-based access control", "Activity logging"] },
-  { label: "Application Layer", accent: "bg-primary", items: ["AWS App Runner", "API services", "Workflow orchestration"] },
-  { label: "Data Layer", accent: "bg-accent", items: ["PostgreSQL on AWS RDS", "Audit-friendly schema", "Document storage"] },
+  { label: "Client", accent: "bg-primary", items: ["Role-aware routing"] },
+  { label: "Auth & Access", accent: "bg-accent", items: ["Role-based access control", "Activity logging"] },
+  { label: "Application Layer", accent: "bg-primary", items: ["API services", "Workflow orchestration"] },
+  { label: "Data Layer", accent: "bg-accent", items: ["Audit-friendly schema", "Document storage"] },
 ];
 
 const Architecture = () => (
@@ -39,23 +39,6 @@ const Architecture = () => (
             </div>
           </div>
         ))}
-      </div>
-
-      {/* Tech Stack */}
-      <div className="mt-20">
-        <div className="text-[11px] font-mono uppercase tracking-[0.18em] text-muted-foreground text-center mb-8">
-          Tech Stack
-        </div>
-        <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
-          {[
-            "React", "Vite", "TypeScript", "Supabase Auth", "PostgreSQL",
-            "AWS App Runner", "AWS RDS", "Vercel",
-          ].map((tech) => (
-            <div key={tech} className="px-4 py-2 rounded-lg border border-border/60 bg-card/60 backdrop-blur text-sm font-medium hover:border-primary/40 hover:text-primary transition-colors">
-              {tech}
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   </section>
