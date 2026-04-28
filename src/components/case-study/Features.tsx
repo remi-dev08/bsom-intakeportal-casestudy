@@ -1,18 +1,13 @@
 import {
-  LayoutDashboard, GitBranch, ClipboardList, UserCheck,
-  BarChart3, Lock, ScrollText, FileLock2,
+  LayoutDashboard, GitBranch, UserCheck, BarChart3,
 } from "lucide-react";
 import SectionHeader from "./SectionHeader";
 
 const features = [
-  { icon: LayoutDashboard, title: "Intake Dashboard", desc: "Track active referrals, pending paperwork, insurance verification, and non-responsive clients in one place." },
-  { icon: GitBranch, title: "Referral Lifecycle", desc: "Move referrals through each intake stage with clear status controls, audit history, and centralized records." },
-  { icon: ClipboardList, title: "Assessment Workflow", desc: "Track parent interviews, assessments, treatment plans, and readiness across the clinical handoff pipeline." },
-  { icon: UserCheck, title: "BCBA Assignment", desc: "Standardized assignment workflows that reduced manual errors in clinical handoff coordination." },
-  { icon: BarChart3, title: "Operations Dashboard", desc: "Visibility into referral aging, clinic volume, intake performance, and conversion trends." },
-  { icon: Lock, title: "Role-Based Access", desc: "Secure internal access with role-aware permissions for intake and admin users." },
-  { icon: ScrollText, title: "Activity Logging", desc: "Audit-friendly action logging for accountability and operational traceability." },
-  { icon: FileLock2, title: "Document Management", desc: "Secure upload and retrieval for client intake documents tied directly to records." },
+  { icon: LayoutDashboard, title: "Intake Dashboard", desc: "A single view for active referrals, pending paperwork, and follow-ups." },
+  { icon: GitBranch, title: "Referral Lifecycle", desc: "Move referrals through each stage with clear status controls and history." },
+  { icon: UserCheck, title: "BCBA Assignment", desc: "Standardized handoffs that reduce manual errors in clinical assignment." },
+  { icon: BarChart3, title: "Operations Dashboard", desc: "Visibility into referral aging, clinic volume, and conversion trends." },
 ];
 
 const Features = () => (
@@ -20,8 +15,8 @@ const Features = () => (
     <div className="container">
       <SectionHeader
         eyebrow="03 · Core Features"
-        title="Eight modules. One operational backbone."
-        description="Each surface was designed to remove a specific operational friction point and together they form a coherent internal system."
+        title="Four pillars. One operational backbone."
+        description="A snapshot of the modules that remove the most friction from day-to-day intake operations."
       />
 
       <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-border/60 rounded-2xl overflow-hidden border border-border/60">
