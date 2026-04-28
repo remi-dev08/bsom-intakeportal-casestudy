@@ -29,7 +29,7 @@ const Overview = () => (
             ))}
           </div>
           <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
-            I owned the full product lifecycle — from operational discovery and process mapping to product strategy,
+            I owned the full product lifecycle, from operational discovery and process mapping to product strategy,
             interface design, frontend implementation, and stakeholder iteration in production.
           </p>
         </div>
